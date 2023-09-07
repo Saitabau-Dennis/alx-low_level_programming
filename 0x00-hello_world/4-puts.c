@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - This is a program thats prints a multilingual puzzle
- * Return; 0 {Succes}
+ * Return:Always 0 (Succes)
  */
 int main(void)
 {
