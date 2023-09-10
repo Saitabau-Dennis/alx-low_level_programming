@@ -1,16 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - prints the alphabet in lowercase followed by a new line
+ * main - program that prints alphabets
+ *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-char sh = 'a'
-while (sh <= 'z')
-{
-puchar(sh);
-sh++;
-}
-putchar('\n');
-return (0);
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		putchar (x);
+	}
+		putchar ('\n');
+	return (0);
 }
