@@ -1,16 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - program that prints all digits starting with zero
- * Return: Always 0 (Success)
+ * main - single digit numbers
+ *
+ * Return: Always (success)
  */
 int main(void)
 {
-	char i;
+	char n;
 
-	for (i = 0; i < 10; i++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		printf("%d", i);
+		putchar(n);
 	}
-	printf("\n)
-		return (0);
+		putchar('\n');
+	return (0);
 }
